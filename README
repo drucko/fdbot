@@ -1,5 +1,6 @@
 fdbot:
 python script that send nagios notification to your jabber account using twisted.
+For monitoring with Nagios
 
 
 fdbot is free software; you can redistribute it and/or modify it

@@ -5,11 +5,11 @@ if __name__ == '__main__':
    """setting of nagios account proprieties"""
    resource="public_name"	
    username="jabberuser"
+   password="jabberpassword"
    server="jabberserver"
    
    """Jabber URI is username@server (sometimes referred to as a "bare JID") prepended by 'xmpp:'"""
    me=username+'@'+server+'/'+resource
-   password="jabberpassword"
    staff=[]	
 	
    if len(sys.argv)!=3:
